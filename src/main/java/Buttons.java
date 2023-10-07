@@ -1,7 +1,9 @@
 import javax.swing.JButton;
 
 public class Buttons extends JButton {
-    private int row, col, count;
+    private final int row;
+    private final int col;
+    private int count;
     private boolean mine, flag;
 
     public Buttons(int row, int col) {
@@ -17,19 +19,9 @@ public class Buttons extends JButton {
         return row;
     }
 
-    public void setRow(int row) {
-
-        this.row = row;
-    }
-
     public int getCol() {
 
         return col;
-    }
-
-    public void setCol(int col) {
-
-        this.col = col;
     }
 
     public int getCount() {
