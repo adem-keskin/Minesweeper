@@ -16,7 +16,7 @@ public class Minesweeper implements MouseListener {
 
     public Minesweeper() {
         openButton = 0;
-        frame = new JFrame("MINESWEPPER");                  // Frame name
+        frame = new JFrame("MINESWEEPER");                  // Frame name
         frame.setSize(800, 800);                    // Frame size
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new GridLayout(10, 10));      // Frame layout with Grid
